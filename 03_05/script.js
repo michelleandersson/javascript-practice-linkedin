@@ -19,4 +19,9 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
-};
+}; 
+
+
+console.log(backpack);
+console.log(backpack.color); 
+console.log("the backpack is", backpack.color, "and has", backpack.pocketNum, "pockets"); 
