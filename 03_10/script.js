@@ -14,5 +14,15 @@ const everydayPack = new Backpack(
   false
 );
 
+const weekendPack = new Backpack( 
+  "Weekend Backpack", 
+  15, 
+  "green",
+  20, 
+  20,
+  true
+)
+
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
+console.log("The weekendpack object:", weekendPack); 
