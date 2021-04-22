@@ -12,5 +12,10 @@ console.log(`let b: ${b} (${typeof b})`);
 console.log(`let c: ${c} (${typeof c})`);
 
 let result = a + b;
+result = a - b;
+result = a / b;
+result = a * b;
+result = (a * b) / 2;
+result = (a * b) / c;
 
 console.log("Result: ", result);
