@@ -17,5 +17,13 @@ result = a / b;
 result = a * b;
 result = (a * b) / 2;
 result = (a * b) / c;
+//modular is useful when testing for prime numbers
+result = a % b;
+// '**' means to the power of
+result = a ** b;
 
 console.log("Result: ", result);
+
+//++ adds one to the number
+//if ++a -> 6
+//if a++ -> 5, but next time we use a, it is already incremented to 6
