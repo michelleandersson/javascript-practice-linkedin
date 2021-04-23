@@ -23,3 +23,5 @@ headingColor();
 
 document.querySelector(".right").style.backgroundColor = color;
 document.querySelector(".right .color-value").innerHTML = color;
+
+//genereal rule; use let for variables that need to be able to redeclare
